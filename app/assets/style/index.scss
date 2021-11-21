@@ -1,0 +1,56 @@
+body{
+    font-family: 微軟正黑體,sans-serif;
+    
+}
+
+img{
+    display: block;
+}
+
+.banner{
+    width: 100%;
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.wrap{
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    .card{
+        background-color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        .card-photo a img{
+            width: 100%;
+            height: auto;
+        }
+        .card-text{
+            text-align: left;
+            padding: 20px;
+            h2{
+                margin-bottom: 30px;
+                padding-bottom: 5px;
+                border-bottom: 5px solid rgb(252, 127, 158);
+            }
+            h2:hover{
+                color: aliceblue;
+                background-color: rgb(255, 169, 169);
+                transition: .5s;
+            }
+            p{
+                line-height: 1.8;
+            }
+        }
+    }
+}
+
