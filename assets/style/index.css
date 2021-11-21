@@ -49,6 +49,7 @@ img {
       text-align: left;
       padding: 20px; }
       .wrap .card .card-text h2 {
+        margin-top: 10px;
         margin-bottom: 30px;
         padding-bottom: 5px;
         border-bottom: 5px solid #fc7f9e; }
